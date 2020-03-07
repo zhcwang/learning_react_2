@@ -1,0 +1,17 @@
+/* CSS选择器只会对id和类选择器生效。写h1没用*/
+.title {
+    color: red;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.test {
+    font-style: italic;
+}
+
+/* 被global包裹起来的类名不会被模块化，当然相反可以用:local */
+:global(.global){
+    font-style: italic;
+}
+

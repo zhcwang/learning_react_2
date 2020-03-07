@@ -1,0 +1,15 @@
+/* CSS选择器只会对id和类选择器生效。写h1没用*/
+.container {
+    border: 1px dashed #ccc;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.title {
+    font-size: 13px;
+}
+
+.content {
+    font-size: 12px;
+}
